@@ -1,6 +1,7 @@
 import React from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
+
 class AutoComplete extends React.Component {
   constructor(props) {
     super(props);
@@ -85,8 +86,8 @@ class AutoComplete extends React.Component {
     });
 
     return (
-      <section 
-        className="autocomplete-section" 
+      <section
+        className="autocomplete-section"
         onClick={this.handleAutocompleteSectionClick}
       >
         <h1>Autocomplete</h1>
